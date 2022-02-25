@@ -15,7 +15,7 @@ Postgresql чарт взял от bitnami: https://bitnami.com/stack/postgresql/
 helm dependency update
 ```
 (Скачает в ./charts postgresql чарт от bitnami)  
-Установил чарт StorageClass provisioner для nfs сервера:
+Установил репо с чартом StorageClass provisioner для nfs сервера:
 ```
 helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
 ```
